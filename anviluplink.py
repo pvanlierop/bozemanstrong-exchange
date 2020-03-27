@@ -16,25 +16,13 @@ ANVILKEY = os.getenv("ANVILCLIENTKEY")
 anvil.server.connect(ANVILKEY)
 
 '''
-Our Data Table for business listings is called bozeman_business
-access the data with the below code
+
 
 We want "approved=True" so that you're only display data components that have gone through the administrative process
 to verify the information
 
 bozeman_business data columns
-biz_name :  Business Name
-biz_type :  Business Category (dropdown populated in separate table biztype
-phone :     Phone Number
-website :   URL for business
-street :    Street Address
-city :      City
-zipcode :   Zip Code
-hours :     Special Information for their business hours freeform text
-details :   Any other additional information they want to provide for their business
-delivery :  Boolean : whether they deliver or not
-pickup :    Boolean : do they provide curbside pickup etc
-giftcard :  Boolean : can you buy a giftcard to support the business at a later time
+
 
 '''
 
