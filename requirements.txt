@@ -1,0 +1,14 @@
+anvil==0.0.2
+anvil-uplink==0.3.29
+certifi==2019.11.28
+chardet==3.0.4
+future==0.18.2
+idna==2.9
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+python-dotenv==0.12.0
+PyYAML==5.3.1
+requests==2.23.0
+six==1.14.0
+urllib3==1.25.8
+ws4py==0.3.4
