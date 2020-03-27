@@ -15,16 +15,8 @@ ANVILKEY = os.getenv("ANVILCLIENTKEY")
 
 anvil.server.connect(ANVILKEY)
 
-'''
-
-
-We want "approved=True" so that you're only display data components that have gone through the administrative process
-to verify the information
-
-bozeman_business data columns
-
-
-'''
+# We want "approved=True" so that you're only display data components that have gone through the administrative process
+# to verify the information
 
 # gather all columns if it's approved
 businesses = app_tables.bozeman_business.search(approved=True)
